@@ -53,7 +53,7 @@ This project is a custom-built search engine designed to process Java files cont
 ## Architecture
 
 ### Database Design
-![Database Design](IMGS\DataBaseDesign.png)
+![Database Design](IMGS/DataBaseDesign.png)
 ---
 
 ## Technologies Used
