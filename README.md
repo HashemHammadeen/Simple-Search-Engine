@@ -5,7 +5,7 @@ This project is a custom-built search engine designed to process Java files cont
 
 ## Features
 - **Zip File Parsing:** Automatically extracts and processes `.java` files from a zip file.
-- **Token Filtering:** Passes tokens through a series of customizable filters.
+- **Token Filtering:** Passes tokens through a series of customizable filters to extrct more tokens help in searching.
 - **Database Storage:** Stores filtered tokens in a database for efficient querying.
 - **JSON Query Language:** Enables users to perform flexible and advanced search queries.
 
@@ -32,7 +32,7 @@ This project is a custom-built search engine designed to process Java files cont
 ## Usage
 
 ### Uploading Files
-1. Place your zip file containing Java files in the designated directory (or upload through the UI, if available).
+1. Use postman to uploade the ZIP file.
 2. The system will automatically extract, parse, and filter the files.
 
 ### Performing Queries
@@ -53,15 +53,11 @@ This project is a custom-built search engine designed to process Java files cont
 ## Architecture
 
 ### Database Design
-*(Insert an image of your database design here)*
-
-### OOP Design
-*(Insert an image of your object-oriented design here)*
-
+![Database Design](IMGS\DataBaseDesign.png)
 ---
 
 ## Technologies Used
-- **Java:** Core language for the application.
+- **JavaParser:** Used for extracting the tokens from Java files.
 - **Database:** PostgreSQL for token storage and querying.
 - **JSON:** Custom query language format.
 - **Spring Boot:** IDE used for building the project.
