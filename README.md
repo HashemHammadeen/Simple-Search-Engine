@@ -45,10 +45,10 @@ This project is a custom-built search engine designed to process Java files cont
   ],
   "pagination": {
   }
-}
+  }
   ```
 
----
+
 
 ## Architecture
 
